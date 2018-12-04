@@ -16,47 +16,60 @@
 
         <link rel="stylesheet" href="profile.css">
     </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body data-spy="scroll" data-target=".navbar" data-offset="30">
         <!--Navigation bar-->
-        <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md navbar-expand-sm bg-dark navbar-dark fixed-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="#" class="navbar navbar-brand">Shruti Jain</a>
-            <div class="collapse navbar-collapse" id="nav-content">  
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">  <a class="nav-link" href="#about">About me</a></li>
-                    <li class="nav-item">  <a class="nav-link" href="#edu">Education</a></li>
-                    <li class="nav-item">  <a class="nav-link" href="#interest">Interest</a></li>
-                    <li class="nav-item">  <a class="nav-link" href="#contact">Contact me</a></li>
+            <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar navbar-brand" style="font-size: 30px">Shruti Jain</a>
+                <div class="collapse navbar-collapse" id="nav-content">  
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">  <a class="nav-link" href="#about">About me</a></li>
+                        <li class="nav-item">  <a class="nav-link" href="#edu">Education</a></li>
+                        <li class="nav-item">  <a class="nav-link" href="#interest">Interest</a></li>
+                        <li class="nav-item">  <a class="nav-link" href="#contact">Contact me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <div class="container-fluid" id="about" style="background-image:url('https://www.desktopbackground.org/download/2560x1440/2014/04/19/749503_plain-background-images_4608x3456_h.jpg')">
+            <div class="jumbotron about" style="background-image:url('https://images.pexels.com/photos/933149/pexels-photo-933149.jpeg')">  
+                <div class="row " >
+                    <div class="col-5">
+                        <img class="rounded-circle img-responsive" src="https://i.imgur.com/zMW8p0m.jpg"  alt="My Pic" width="100%" >
+                    </div> 
+                    <div class="col-7">
+                        <h1> <span class="hello">Hi there!</span> <br>Welcome to my homepage.<br>
+                            I'm Shruti Jain, a coding enthusiast.<br> I am from Indore.
+                        </h1>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="edu" style="background-image:url('http://www.index-f.com/blog/wp-content/uploads/2014/03/bigstock_Online_Education_11092172.jpg')">
+            <div class="jumbotron edu">
+                <h1>Education</h1>
+                <h3>I'm a sophomore pursuing Information Technology at Shri G.S. Institute of Technology and Science.<br> 
+                    I did my schooling from Indore, Madhya Pradesh.
+                </h3>
+            </div>
+        </div>
+        <div class="container-fluid" id="interest" style="background-image:url('https://kriptokoin.com/wp-content/uploads/2017/11/Kodlama.jpg')">
+            <div class="jumbotron int">
+                <h1 align="center">My Interest</h1>
+                <ul>
+                    <li><h3>Coding</h3></li>
+                    <li><h3>Online games</h3></li>
+                    <li><h3>Watching movies</h3></li>
                 </ul>
             </div>
-        </nav>
-        <div id="about">
-            <img class="rounded-circle img-responsive" src="https://i.imgur.com/zMW8p0m.jpg"  alt="My Pic" width="30%" >
-            <h4>About me</h4>
-              <p> <span class="hello">Hi there!</span> Welcome to my homepage.
-                I'm Shruti Jain, a coding enthusiast. I am from Indore.
-              </p>
         </div>
-        <div id="edu">
-            <h2>Education</h2>
-            <pre>I'm a sophomore pursuing Information Technology at Shri GS Institute of Science and Technology. 
-I did my schooling from Indore, Madhya Pradesh.  
-            </pre>
+        <div class="container-fluid" id="contact" style="background-image:url('https://innovisionbiz.com/wp-content/uploads/2016/06/bigstock-Web-Contact-Us-Icons-Cubes-91601855-300x180.jpg')">
+            <div class="jumbotron contact">
+                <h1>Contact me</h1>
+                <h3>shrutijain9923@gmail.com</h3>
+            </div>
         </div>
-        </div>
-        <div id="interest">
-            <h2>My Interest</h2>
-            <ul>
-                <li>Coding</li>
-                <li>Online games</li>
-                <li>Watching movies</li>
-            </ul>
-        </div>
-        <div id="contact">
-            <h2>Contact me</h2>
-            <p>Contact me at shrutijain9923@gmail.com</p>
-        </div>
+    
     </body>
 </html>
